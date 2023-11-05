@@ -13,7 +13,7 @@
 脚本将可用的域名输出到一个名为 `Available-Domains-<TLD>.txt` 的文本文件中
 
 ## 使用方法
-1. git clone当前仓库
+1. `git clone`当前仓库
 2. 使用 `pnpm install` 安装依赖
 3. 在`index.js`文件开始位置的`config`对象中修改`topLevelDomain`属性，比如修改为`fun`，将查询所有形如"aabb.fun"
 4. 使用 `pnpm run start` 运行脚本

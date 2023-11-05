@@ -3,7 +3,7 @@ const fs = require('node:fs').promises
 
 const config = {
   topLevelDomain: 'fun', // 要查询的顶级域名
-  batchSize: 10, // 每次查询域名的数量
+  batchSize: 8, // 每次查询域名的数量
   waitTimeMs: 300, // 每次查询的间隔时间(毫秒)
 }
 const domainAvailableListFile = `Available-Domains-${config.topLevelDomain}.txt`
