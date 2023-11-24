@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node ./index.js"
+    "check-aabb": "node ./checker/check-aabb.js",
+    "check-111222": "node ./checker/check-111222.js"
   },
   "keywords": [],
   "author": "",
