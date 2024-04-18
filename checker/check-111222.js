@@ -4,7 +4,7 @@ function generateNumericDomainNames(tld) {
   let domains = [];
   for (let i = 0; i <= 9; i++) {
     for (let j = 0; j <= 9; j++) {
-      const domain = `${i}${i}${j}${j}.${tld}`;
+      const domain = `${i}${i}${i}${j}${j}${j}.${tld}`;
       domains.push(domain);
     }
   }
